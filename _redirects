@@ -3,20 +3,20 @@
 /fonts             /fonts/             301
 /pages             /pages/             301
 
-/about             /pages/about-us.html                    301
-/contact           /pages/contact-us.html                  301
-/privacy           /pages/privacy-policy.html              301
-/terms             /pages/terms-and-conditions.html        301
-/disclaimer        /pages/disclaimer.html                  301
+/about             /pages/about-us                    301
+/contact           /pages/contact-us                  301
+/privacy           /pages/privacy-policy              301
+/terms             /pages/terms-and-conditions        301
+/disclaimer        /pages/disclaimer                  301
 
-/unicode-converter        /fonts/unicode-converter.html    301
-/krutidev-converter       /fonts/krutidev-converter.html   301
-/kruti-dev-converter      /fonts/krutidev-converter.html   301
+/unicode-converter        /fonts/unicode-converter    301
+/krutidev-converter       /fonts/krutidev-converter   301
+/kruti-dev-converter      /fonts/krutidev-converter   301
 
-/blog/calligraphy         /blog/marathi-calligraphy-fonts.html  301
-/blog/best-fonts          /blog/best-marathi-fonts.html         301
-/blog/ms-word             /blog/marathi-font-for-ms-word.html   301
-/blog/kruti-dev           /blog/kruti-dev-font-download.html    301
-/blog/devanagari          /blog/devanagari-fonts-guide.html     301
+/blog/calligraphy         /blog/marathi-calligraphy-fonts  301
+/blog/best-fonts          /blog/best-marathi-fonts         301
+/blog/ms-word             /blog/marathi-font-for-ms-word   301
+/blog/kruti-dev           /blog/kruti-dev-font-download    301
+/blog/devanagari          /blog/devanagari-fonts-guide     301
 
 /generator         /#generator         301
