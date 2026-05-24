@@ -419,5 +419,31 @@
 const mFonts=['Noto Sans Devanagari','Modak','Kalam','Teko','Rozha One','Yatra One','Srikhand','Baloo 2'];
 mFonts.forEach(f=>{const l=document.createElement('link');l.rel='stylesheet';l.href='https://fonts.googleapis.com/css2?family='+encodeURIComponent(f)+'&display=swap';document.head.appendChild(l);});
 </script>
+
+
+
+<!-- Google Analytics lazy loading -->
+ <script>
+(function(){
+  var loaded=false;
+  function loadGA(){
+    if(loaded)return;
+    loaded=true;
+    var s=document.createElement('script');
+    s.src='https://www.googletagmanager.com/gtag/js?id=G-1B93TFPB6F';
+    s.async=true;
+    document.head.appendChild(s);
+    window.dataLayer=window.dataLayer||[];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js',new Date());
+    gtag('config','G-1B93TFPB6F',{'transport_type':'beacon','send_page_view':true});
+    window.gtag=gtag;
+  }
+  window.addEventListener('scroll',loadGA,{once:true,passive:true});
+  window.addEventListener('click',loadGA,{once:true,passive:true});
+  window.addEventListener('touchstart',loadGA,{once:true,passive:true});
+  setTimeout(loadGA,5000);
+})();
+</script>
 </body>
 </html>
