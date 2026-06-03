@@ -445,5 +445,29 @@ mFonts.forEach(f=>{const l=document.createElement('link');l.rel='stylesheet';l.h
   setTimeout(loadGA,5000);
 })();
 </script>
+
+<!-- Vignette ads lazy loading -->
+<script>
+(function(){
+  var loaded = false;
+
+  function loadVignette(){
+    if(loaded) return;
+    loaded = true;
+
+    var s = document.createElement('script');
+    s.dataset.zone = '11093152';
+    s.src = 'https://n6wxm.com/vignette.min.js';
+    s.async = true;
+    document.body.appendChild(s);
+  }
+
+  window.addEventListener('scroll', loadVignette, {once:true, passive:true});
+  window.addEventListener('click', loadVignette, {once:true, passive:true});
+  window.addEventListener('touchstart', loadVignette, {once:true, passive:true});
+
+  setTimeout(loadVignette, 5000);
+})();
+</script>
 </body>
 </html>
