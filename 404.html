@@ -11,7 +11,7 @@
   <meta name="author" content="MarathiFontStyle.co.in">
   <meta name="robots" content="noindex, follow">
   <link rel="canonical" href="https://marathifontstyle.co.in/404">
-  <meta name="theme-color" content="#CD2C58">
+  <meta name="theme-color" content="#20C997">
   <link rel="manifest" href="/manifest.json">
   <link rel="icon" href="/assets/img/favicon/favicon.ico" sizes="any">
   <meta property="og:type" content="website">
@@ -29,7 +29,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W=="
@@ -44,7 +44,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background: var(--ink);
+      background: var(--primary-gradient);
       padding: 3rem 2rem;
       text-align: center
     }
@@ -56,7 +56,7 @@
     .err-deva {
       font-family: 'Noto Sans Devanagari', sans-serif;
       font-size: clamp(6rem, 20vw, 10rem);
-      color: rgba(255, 255, 255, .04);
+      color: rgba(32, 201, 151, .08);
       line-height: 1;
       font-weight: 700;
       margin-bottom: -1.5rem
@@ -74,14 +74,14 @@
       font-family: var(--serif);
       font-size: 1.5rem;
       font-weight: 700;
-      color: #fff;
+      color: var(--ink);
       margin: .8rem 0 .6rem
     }
 
     .err-sub {
       font-size: .9rem;
-      color: rgba(255, 255, 255, .45);
-      font-weight: 300;
+      color: var(--ink-3);
+      font-weight: 400;
       line-height: 1.7;
       margin-bottom: 2rem
     }
@@ -95,30 +95,31 @@
 
     .err-link {
       padding: 9px 18px;
-      border-radius: 4px;
+      border-radius: 24px;
       font-size: .83rem;
-      font-weight: 500;
+      font-weight: 600;
       text-decoration: none;
       transition: .15s
     }
 
     .err-link.primary {
-      background: var(--red);
+      background: var(--dynamic-gradient);
       color: #fff
     }
 
     .err-link.primary:hover {
-      background: #b02448
+      opacity: .9
     }
 
     .err-link.ghost {
-      border: 1px solid rgba(255, 255, 255, .15);
-      color: rgba(255, 255, 255, .65)
+      border: 1px solid var(--border-strong);
+      color: var(--ink-3)
     }
 
     .err-link.ghost:hover {
-      color: #fff;
-      border-color: rgba(255, 255, 255, .35)
+      color: #026e4a;
+      border-color: var(--red);
+      background: var(--red-pale);
     }
   </style>
 </head>
