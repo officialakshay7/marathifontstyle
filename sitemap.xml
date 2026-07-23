@@ -1,144 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<?xml-stylesheet type="text/css" href="https://www.xml-sitemaps.com/css/sitemap.css"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-
-<url>
-  <loc>https://marathifontstyle.co.in/</loc>
-  <lastmod>2026-05-01T12:15:27+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://marathifontstyle.co.in/fonts/unicode-converter</loc>
-  <lastmod>2026-05-01T12:15:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://marathifontstyle.co.in/fonts/krutidev-converter</loc>
-  <lastmod>2026-05-01T12:15:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://marathifontstyle.co.in/blog/</loc>
-  <lastmod>2026-05-01T12:15:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://marathifontstyle.co.in/pages/about-us</loc>
-  <lastmod>2026-05-01T12:15:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://marathifontstyle.co.in/pages/contact-us</loc>
-  <lastmod>2026-05-01T12:15:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://marathifontstyle.co.in/blog/marathi-calligraphy-fonts</loc>
-  <lastmod>2026-05-01T12:15:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://marathifontstyle.co.in/blog/best-marathi-fonts</loc>
-  <lastmod>2026-05-01T12:15:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://marathifontstyle.co.in/blog/marathi-font-for-ms-word</loc>
-  <lastmod>2026-05-01T12:15:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://marathifontstyle.co.in/blog/kruti-dev-font-download</loc>
-  <lastmod>2026-05-01T12:15:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://marathifontstyle.co.in/blog/devanagari-fonts-guide</loc>
-  <lastmod>2026-05-01T12:15:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://marathifontstyle.co.in/pages/privacy-policy</loc>
-  <lastmod>2026-05-01T12:15:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://marathifontstyle.co.in/pages/terms-and-conditions</loc>
-  <lastmod>2026-05-01T12:15:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://marathifontstyle.co.in/pages/disclaimer</loc>
-  <lastmod>2026-05-01T12:15:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
-<url>
-  <loc>https://marathifontstyle.co.in/blog/marathi-fonts-whatsapp</loc>
-  <lastmod>2026-07-23T00:00:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://marathifontstyle.co.in/blog/marathi-fonts-youtube-thumbnail</loc>
-  <lastmod>2026-07-23T00:00:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://marathifontstyle.co.in/blog/marathi-fonts-instagram-bio</loc>
-  <lastmod>2026-07-23T00:00:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://marathifontstyle.co.in/blog/marathi-fonts-wedding-invitations</loc>
-  <lastmod>2026-07-23T00:00:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://marathifontstyle.co.in/blog/unicode-vs-krutidev-vs-shreelipi</loc>
-  <lastmod>2026-07-23T00:00:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://marathifontstyle.co.in/blog/marathi-fonts-logo-branding</loc>
-  <lastmod>2026-07-23T00:00:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://marathifontstyle.co.in/blog/devlys-to-unicode-guide</loc>
-  <lastmod>2026-07-23T00:00:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://marathifontstyle.co.in/blog/marathi-calligraphy-beginners</loc>
-  <lastmod>2026-07-23T00:00:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://marathifontstyle.co.in/blog/marathi-fonts-youtube-channel-art</loc>
-  <lastmod>2026-07-23T00:00:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://marathifontstyle.co.in/blog/marathi-fonts-powerpoint</loc>
-  <lastmod>2026-07-23T00:00:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://marathifontstyle.co.in/blog/history-of-devanagari-script</loc>
-  <lastmod>2026-07-23T00:00:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://marathifontstyle.co.in/blog/how-to-type-marathi-online-free</loc>
-  <lastmod>2026-07-23T00:00:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+  <url>
+       <loc>https://marathifontstyle.co.in/</loc>
+       <lastmod>2026-07-23T11:18:50+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>1.0000</priority>
+  </url>
+  <url>
+       <loc>https://marathifontstyle.co.in/fonts/unicode-converter</loc>
+       <lastmod>2026-07-23T11:18:50+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://marathifontstyle.co.in/fonts/krutidev-converter</loc>
+       <lastmod>2026-07-23T11:18:50+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://marathifontstyle.co.in/blog/</loc>
+       <lastmod>2026-07-23T11:18:50+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://marathifontstyle.co.in/pages/about-us</loc>
+       <lastmod>2026-07-23T11:18:50+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://marathifontstyle.co.in/pages/contact-us</loc>
+       <lastmod>2026-07-23T11:18:50+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://marathifontstyle.co.in/blog/marathi-calligraphy-fonts</loc>
+       <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://marathifontstyle.co.in/blog/best-marathi-fonts</loc>
+       <lastmod>2026-03-10T00:00:00+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://marathifontstyle.co.in/blog/marathi-font-for-ms-word</loc>
+       <lastmod>2026-02-15T00:00:00+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://marathifontstyle.co.in/blog/kruti-dev-font-download</loc>
+       <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://marathifontstyle.co.in/blog/devanagari-fonts-guide</loc>
+       <lastmod>2026-02-20T00:00:00+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://marathifontstyle.co.in/pages/privacy-policy</loc>
+       <lastmod>2026-07-23T11:18:50+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://marathifontstyle.co.in/pages/terms-and-conditions</loc>
+       <lastmod>2026-07-23T11:18:50+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://marathifontstyle.co.in/pages/disclaimer</loc>
+       <lastmod>2026-07-23T11:18:50+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://marathifontstyle.co.in/blog/how-to-type-marathi-online-free</loc>
+       <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://marathifontstyle.co.in/blog/unicode-vs-krutidev-vs-shreelipi</loc>
+       <lastmod>2026-04-14T00:00:00+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://marathifontstyle.co.in/blog/devlys-to-unicode-guide</loc>
+       <lastmod>2026-04-27T00:00:00+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://marathifontstyle.co.in/blog/history-of-devanagari-script</loc>
+       <lastmod>2026-05-25T00:00:00+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://marathifontstyle.co.in/blog/marathi-fonts-whatsapp</loc>
+       <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://marathifontstyle.co.in/blog/marathi-fonts-youtube-thumbnail</loc>
+       <lastmod>2026-06-16T00:00:00+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://marathifontstyle.co.in/blog/marathi-fonts-instagram-bio</loc>
+       <lastmod>2026-04-02T00:00:00+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
 </urlset>
