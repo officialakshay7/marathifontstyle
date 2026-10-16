@@ -620,3 +620,52 @@ footer {
   .font-grid { grid-template-columns: 1fr; }
   .footer-bottom { flex-direction: column; text-align: center; }
 }
+
+/* --- Cumulative Layout Shift (CLS) Ad Slot Fixes --- */
+.ad-slot-header,
+.ad-slot-footer,
+.ad-slot-incontent,
+.ad-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.02);
+  margin: 1.5rem auto;
+  transition: min-height 0.2s ease;
+}
+
+/* Header leaderboard (desktop vs mobile) */
+.ad-slot-header {
+  min-height: 90px;
+  width: 100%;
+  max-width: 728px;
+}
+
+/* In-content banner / rectangle */
+.ad-slot-incontent {
+  min-height: 280px;
+  width: 100%;
+  max-width: 336px;
+}
+
+/* Footer unit */
+.ad-slot-footer {
+  min-height: 90px;
+  width: 100%;
+  max-width: 728px;
+}
+
+/* Mobile responsive clamps */
+@media (max-width: 768px) {
+  .ad-slot-header,
+  .ad-slot-footer {
+    min-height: 50px;
+    max-width: 320px;
+  }
+  .ad-slot-incontent {
+    min-height: 250px;
+    max-width: 300px;
+  }
+}

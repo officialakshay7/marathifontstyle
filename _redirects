@@ -1,22 +1,29 @@
-# Cloudflare Pages _redirects
-/blog              /blog/              301
-/fonts             /fonts/             301
-/pages             /pages/             301
+# 1. Apex and HTTPS Normalization
+http://marathifontstyle.com/*   https://marathifontstyle.com/:splat 301!
+https://www.marathifontstyle.com/*  https://marathifontstyle.com/:splat 301!
 
-/about             /pages/about-us                    301
-/contact           /pages/contact-us                  301
-/privacy           /pages/privacy-policy              301
-/terms             /pages/terms-and-conditions        301
-/disclaimer        /pages/disclaimer                  301
+# 2. Strip .html extensions (301 Permanently)
+/index.html                           /                                 301
+/fonts/unicode-converter.html         /fonts/unicode-converter          301
+/fonts/krutidev-converter.html        /fonts/krutidev-converter         301
+/fonts/numeral-converter.html         /fonts/numeral-converter          301
+/fonts/typing-speed-test.html         /fonts/typing-speed-test          301
+/fonts/font-pairing-tool.html         /fonts/font-pairing-tool          301
+/fonts/reverse-transliteration.html   /fonts/reverse-transliteration    301
 
-/unicode-converter        /fonts/unicode-converter    301
-/krutidev-converter       /fonts/krutidev-converter   301
-/kruti-dev-converter      /fonts/krutidev-converter   301
+# 3. Blog clean URLs
+/blog/index.html                      /blog/                            301
+/blog/:slug.html                      /blog/:slug                       301
 
-/blog/calligraphy         /blog/marathi-calligraphy-fonts  301
-/blog/best-fonts          /blog/best-marathi-fonts         301
-/blog/ms-word             /blog/marathi-font-for-ms-word   301
-/blog/kruti-dev           /blog/kruti-dev-font-download    301
-/blog/devanagari          /blog/devanagari-fonts-guide     301
+# 4. Pages clean URLs
+/pages/:page.html                     /pages/:page                      301
 
-/generator         /#generator         301
+# 5. Internal Rewrites (Serve static file when clean path is requested)
+/fonts/unicode-converter              /fonts/unicode-converter.html     200
+/fonts/krutidev-converter             /fonts/krutidev-converter.html    200
+/fonts/numeral-converter              /fonts/numeral-converter.html     200
+/fonts/typing-speed-test              /fonts/typing-speed-test.html     200
+/fonts/font-pairing-tool              /fonts/font-pairing-tool.html     200
+/fonts/reverse-transliteration        /fonts/reverse-transliteration.html 200
+/blog/:slug                           /blog/:slug.html                  200
+/pages/:page                          /pages/:page.html                 200
